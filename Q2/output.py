@@ -40,7 +40,7 @@ def getParsedString(filename):
     elif strings[0] == 'kebab-case':
         for string in iterStrings:
             fullString += string
-            fullString += '_'
+            fullString += '-'
 
     if strings[0] == 'snake_case' or strings[0] == 'kebab-case':
         fullString = fullString[:-1]
