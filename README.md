@@ -54,7 +54,7 @@ Make changes to `Dockerfile` in this directory, then run `docker-compose build d
 
 - Quick sort
 ```
-g++ -o quicksort quickSort.cpp
+g++ -o quicksort quicksort.cpp
 quicksort < inputFile
 ```
 
